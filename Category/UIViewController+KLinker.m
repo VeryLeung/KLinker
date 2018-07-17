@@ -8,6 +8,7 @@
 #pragma clang diagnostic ignored "-Warc-performSelector-leaks"
 
 #import "UIViewController+KLinker.h"
+#import <objc/runtime.h>
 
 const static char *kRouteParams = "kRouteParams";
 

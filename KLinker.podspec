@@ -16,8 +16,8 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "KLinker"
-  s.version      = "0.0.1"
-  s.summary      = "A simple router for web urls and native controllers, sothat through a url can reach sepcified annotation in app."
+  s.version      = "0.0.3"
+  s.summary      = "A simpler router for web urls and native controllers."
  
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,9 +25,10 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
+  A simple router for web urls and native controllers, sothat through a url can reach sepcified annotation in app.
                    DESC
 
-  s.homepage     = "https://github.com/VeryLeung/KLinker.wiki.git"
+  s.homepage     = "https://github.com/VeryLeung/KLinker/wiki"
   # s.screenshots  = "http://images.liangkunlin.me/opensources/klinker/capture/1531799204142.jpg"
 
 
@@ -64,6 +65,7 @@ Pod::Spec.new do |s|
 
   # s.platform     = :ios
   s.platform     = :ios, "8.0"
+  s.ios.deployment_target = "5.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
@@ -89,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Pod/KLinker/**/*.{h,m}"
+  s.source_files  = "KLinker/Classes/**/*.{h,m}"
   s.exclude_files = "KLinker/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
