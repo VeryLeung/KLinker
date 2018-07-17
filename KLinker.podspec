@@ -16,9 +16,9 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "KLinker"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "A simpler router for web urls and native controllers."
- 
+
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
@@ -65,7 +65,7 @@ Pod::Spec.new do |s|
 
   # s.platform     = :ios
   s.platform     = :ios, "8.0"
-  s.ios.deployment_target = "5.0"
+  s.ios.deployment_target = "8.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
@@ -91,8 +91,8 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "KLinker/Classes/**/*.{h,m}"
-  s.exclude_files = "KLinker/Exclude"
+  s.source_files  = "KLinker/**/*.{h,m}","KLinker/*.{h,m}"
+  # s.exclude_files = "KLinker/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
