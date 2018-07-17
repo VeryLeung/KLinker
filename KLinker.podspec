@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "KLinker/**/*.{h,m}","KLinker/*.{h,m}"
+  s.source_files  = "KLinker","KLinker/**/*.{h,m}"
   # s.exclude_files = "KLinker/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
